@@ -11,6 +11,8 @@
 		C78F67791D5E7C3000258F4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F67781D5E7C3000258F4C /* ViewController.swift */; };
 		C78F677B1D5E7C3000258F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78F677A1D5E7C3000258F4C /* Assets.xcassets */; };
 		C78F677E1D5E7C3000258F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78F677C1D5E7C3000258F4C /* Main.storyboard */; };
+		C78F67861D5E80A500258F4C /* MetaEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F67851D5E80A500258F4C /* MetaEditor.swift */; };
+		C78F67881D5E839800258F4C /* DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F67871D5E839800258F4C /* DragDrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C78F677A1D5E7C3000258F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78F677D1D5E7C3000258F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C78F677F1D5E7C3000258F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78F67851D5E80A500258F4C /* MetaEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaEditor.swift; sourceTree = "<group>"; };
+		C78F67871D5E839800258F4C /* DragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				C78F67781D5E7C3000258F4C /* ViewController.swift */,
 				C78F677A1D5E7C3000258F4C /* Assets.xcassets */,
 				C78F677C1D5E7C3000258F4C /* Main.storyboard */,
+				C78F67851D5E80A500258F4C /* MetaEditor.swift */,
+				C78F67871D5E839800258F4C /* DragDrop.swift */,
 				C78F677F1D5E7C3000258F4C /* Info.plist */,
 			);
 			path = meditor;
@@ -131,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78F67881D5E839800258F4C /* DragDrop.swift in Sources */,
 				C78F67791D5E7C3000258F4C /* ViewController.swift in Sources */,
+				C78F67861D5E80A500258F4C /* MetaEditor.swift in Sources */,
 				C78F67771D5E7C3000258F4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
